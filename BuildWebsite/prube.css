@@ -1,0 +1,41 @@
+.container {
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.container2 {
+    width: 200px;
+    height: px;
+    overflow: hidden;
+    margin: 0px
+}
+.crop1
+{   
+    transform: translate(-150px,15px);
+    /*overflow: hidden;
+    margin: 0px;
+    position: relative;
+*/
+}
+.crop2
+{
+    /*
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px;
+    position: relative;
+*/
+}
+.container > .crop {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}

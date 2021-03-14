@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!--NAVBAR...NAVBAR...NAVBAR...NAVBAR...NAVBAR...NAVBAR...NAVBAR-->
+    <nav
+      style="background-color: peru;
+      position: fixed;
+      width:100%;top:0;
+      z-index:3000;
+      box-shadow:0px 5px 2px 1px orange"
+      class="navbar navbar-expand-lg navbar-light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              style="background-color: teal; color: black"
+              class="btn btn-outline-success"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--BREADCRUM-->
+    <div class="container " style="width: 70%;margin-top: 100px;">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-dark">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">CV</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col">
+          <img
+            class="img-fluid"
+            src="data:image/jpeg;base64,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"
+          />
+        </div>
+
+        <div class="col">
+          <h3>
+            Recruiters spend an average of 7.4 seconds on a single CV they
+            receive. That’s barely enough time to read two mid-length sentences.
+            How is it even possible to select the best candidates in so little
+            time? Here’s the key phrase: on average. Most CVs are discarded in a
+            flash. The good thing is, you can make recruiters eager to read
+            yours in full.
+          </h3>
+        </div>
+      </div>
+    </div>
+    <hr class="mb-5" />
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://lequid.es/blog/wp-content/uploads/2018/05/WHAT-IS-THE-CORPORATE-WEBSITE.jpg"
+            class="d-block img-carousel w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.websitebuilderexpert.com/wp-content/uploads/2018/01/How-to-Build-a-Website_Hero.jpg"
+            class="d-block img-carousel w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.kaffury.com/wp-content/uploads/2020/02/website-static-vs-dynamic1.png"
+            class="d-block img-carousel w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br />
+
+    <div class="container mt-3" style="width: 70%">
+      <div class="row">
+        <div class="col">
+
+
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+              
+              <br>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Example textarea</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+
+
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+          </form>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <button type="submit" class="btn btn-dark mt-3">Submit</button>
+        </div>
+       
+      </div>
+    </div>
+    
+
+    <footer class="bg-dark mt-5">
+        <div class="container pt-5">
+            <div class="row">
+                
+                <div class="col" style="color:aliceblue">
+                    <h2>
+                        ¿Quien eres?
+                    </h2>
+                    <h3>
+                        Soy Dyland Saldaña
+                    </h3>
+                </div>
+                <div class="col" style ="color:thistle">
+                    <h2>
+                        ¿Como contactactarnos?
+                    </h2>
+                    <h3>
+                        tu puedes enviarnos un email
+                    </h3>
+                </div>
+                <div class="col">
+
+                </div>
+            
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+      integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+      integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--script src="script.js"></script-->
+    <script>
+      $(document).ready(function() {
+         $("button").click(function(){
+            $("p").css("color","green")     
+            $("p").css("background-color","yellow")      
+            $("p").css("font-size","55px")      
+            $("p").css("border","10px solid blue")      
+            $("p").css("border-radius","20px")    
+            $("p").css("padding","50px")    
+            $("p").css("margin","10%")   
+            $("p").css("text-align","center")   
+            $("p").css("letter-spacing","2px")   
+        })
+        $("h1").click(function()
+        {
+            $("h1").css("color","red")
+        })
+      });
+    </script>
+  </head>
+  <body>
+    <button>Hazme click para cambiar el CSS</button>
+    <p>Este es un pequeño parrafo</p>  
+    <p>Este es otro parrafo</p>
+    <h1>Este es un parrafo grande</h1>
+
+    </style>
+  </body>
+</html>

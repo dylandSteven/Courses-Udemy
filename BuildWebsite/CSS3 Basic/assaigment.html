@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assaigment.css"></link>
+    <title>Document</title>
+    <script>
+        $(document).ready(function()
+        {
+            $("#btn1").click(function()
+            {
+                $(".crop1").css("transform"," translate(-185px,-210px)")
+            })
+
+            $("#btn2").click(function()
+            {
+                
+                $(".crop1").css("transform"," translate(-590px,-210px)")
+            
+            })
+            
+        })
+    </script> 
+
+</head>
+<body id="primerCuerpo">
+    <div id="negro">
+    <h1 id="nombre">Dyland Saldaña</h1>
+    <h2 id="welcome">Bienvenido a mi primera pagina web</h2>
+    </div>
+    <div class= "prueba">
+        <h3 class="tres" id = "banda">THE BAND</h3>
+        <h3 id = "love">We love music</h3>
+        <p  id  = "parrafo">We have created a fictional band website .Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 id = "image"></h3>
+        <h3 id = "code">I like the way you code</h3>
+        <h2 id = "adios" > Thank you</h2>
+        <button id="btn1">Turn on</button>
+                                        
+       
+        <div class="container"  style=" width: 250px;
+                                        height: 400px;
+                                        overflow: hidden;
+                                        margin: 0px;
+                                        transform: translate(600px);
+                                        ">
+                                       
+                                        <img class="crop1" style="transform:translate(-185px,-210px)" src=" https://st2.depositphotos.com/2643781/9651/v/950/depositphotos_96519312-stock-illustration-light-bulb-onoff.jpg "/> 
+                                        
+                                      
+    </div>
+    <button id="btn2"> Turn off</button>
+    </div>
+
+</html>

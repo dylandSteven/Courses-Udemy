@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#btn1").click(function () {
+          $("body").css("background-image","url(https://i.pinimg.com/originals/a9/12/25/a9122539bc17f0b49c3664cf0cf5e43a.jpg)")
+          
+          $("#id1").fadeToggle()
+          $("#id1").css("color","white")
+          $("#id1").css("color","black")
+          $("#id1").css("background-image","url(https://us.123rf.com/450wm/tutye/tutye1608/tutye160800030/62862321-resumen-de-color-rojo-amarillo-p%C3%BArpura-y-azul-desenfoque-de-color-gradiente-de-fondo-para-conceptos-de-d.jpg?ver=6)")
+          $("#id1").css("border","5px solid white")
+          $("#id1").css("border-radius","25%")    
+        
+          $("#btn1").hide() 
+          $("#id1").fadeIn(3000)
+          
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div
+      style="
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <h1 style="display: none;" id ="id1">Dyland Saldaña</h1>
+      <button id="btn1">Click here</button>
+    </div>
+  </body>
+</html>

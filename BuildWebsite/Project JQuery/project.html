@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <script>
+        $(document).ready(function()
+        {
+            $("#btn1").click(function()
+            {
+                $("#id1").fadeToggle()
+            })
+
+            $("#btn2").click(function()
+            {   $("#id1").css("color","black")
+                $("#id1").css("background-color","white")
+                $("#id1").css("border","5px solid red")
+                $("#id1").css("border-radius","20px")    
+            })
+        })
+    
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 style ="display: none;" id ="id1">14/2/2021</h1>
+        <button id="btn1" style="background-color: aqua;">Click aqui para ver la fecha</button>
+        <br>
+        <button id="btn2" style="background-color: greenyellow;">Click aqui para ver el cambio de CSS</button>
+    
+    </div>
+</body>
+</html>

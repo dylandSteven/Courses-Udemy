@@ -1,0 +1,11 @@
+.img-carousel
+{
+    min-height: 700px;
+    max-height: 700px;
+}
+
+footer
+{
+    height: 200px;
+    width: 100%;
+}

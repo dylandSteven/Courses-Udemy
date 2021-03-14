@@ -1,0 +1,32 @@
+body
+{
+    background-image:linear-gradient(to right, rgba(0,0,0.247),rgba(255,255, 255, 0.212)), url(https://i.pinimg.com/originals/3f/71/5e/3f715e9838eaadcd21586140647ce3d0.jpg);
+}
+.name
+{
+    color:saddlebrown;
+    font-size: 55px;
+    text-align:center;
+    width: 100%;
+}
+.background1
+{
+    background-image: url(https://miro.medium.com/max/5360/1*hCepk89R2z0Jp3OyWdvJ8Q.jpeg);
+    color:white;
+    padding: 50px;
+    margin:50px
+}
+ul{
+    font-size: 24px;
+}
+li{
+    background-color: turquoise;
+    margin-bottom: 10px;
+}
+#btn1
+{
+    border:none;
+    background-color: seashell;
+    font-size: 24px;
+    width: 100px;
+}

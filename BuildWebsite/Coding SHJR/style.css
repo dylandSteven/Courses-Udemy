@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#col-header-description {
+  margin-top: 15%;
+}
+.header {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)),
+    url(https://media.istockphoto.com/vectors/black-background-vector-id1167050865?k=6&m=1167050865&s=612x612&w=0&h=I-wf_Vv-MzqTfcYd8AxZKKvXGM3yC6DNNAEOHswvaMY=);
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.about {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)),
+    url(https://media.istockphoto.com/vectors/black-background-vector-id1167050865?k=6&m=1167050865&s=612x612&w=0&h=I-wf_Vv-MzqTfcYd8AxZKKvXGM3yC6DNNAEOHswvaMY=);
+  height: 100%;
+  background-attachment: fixed;
+  color: white;
+}
+
+#h1-header {
+  color: white;
+  margin-bottom: 0px;
+}
+
+#h2-header {
+  color: aqua;
+  margin-bottom: 1rem;
+}
+
+#btn-header {
+  color: aqua;
+  margin-bottom: 1rem;
+}
+
+.line {
+  height: 5px;
+  background-color: aqua;
+}
+
+#line-small {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 5px;
+  background-color: aqua;
+  width: 80px;
+}
+.img-about {
+  height: 400px;
+  height: 400px;
+}
+
+.img-carousel {
+  min-height: 750px;
+  max-height: 750px;
+}
+
+#h1-carousel {
+  position: absolute;
+  bottom: 300px;
+  left: 60px;
+  font-size: 25px;
+  color: white;
+}
+
+#h2-carousel {
+  position: absolute;
+  bottom: 150px;
+  left: 60px;
+  text-align: left;
+  font-size: 70px;
+  color: white;
+}
+
+.img-features {
+  max-height: 500px;
+  min-width: 400px;
+  border: 3px solid aqua;
+  border-radius: 10px;
+}
+
+#text-features {
+  font-style: italic;
+}
+
+.features {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)),
+    url(https://media.istockphoto.com/vectors/black-background-vector-id1167050865?k=6&m=1167050865&s=612x612&w=0&h=I-wf_Vv-MzqTfcYd8AxZKKvXGM3yC6DNNAEOHswvaMY=);
+  height: 100%;
+  background-attachment: fixed;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.contact {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)),
+    url(https://media.istockphoto.com/vectors/black-background-vector-id1167050865?k=6&m=1167050865&s=612x612&w=0&h=I-wf_Vv-MzqTfcYd8AxZKKvXGM3yC6DNNAEOHswvaMY=);
+  height: 100%;
+  background-attachment: fixed;
+  color: white;
+  padding-bottom: 3rem;
+}
+#fab {
+  margin-bottom: 35px;
+  font-size: 60px;
+  margin-top: 35px;
+  color: aqua;
+}
+
+.counter-section {
+  font-size: 50px;
+  background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0)),
+    url(https://preview.redd.it/b4zg8gqb1pr41.png?auto=webp&s=54bda242cfe1313c784d9f19290f0e1897f5dd9c);
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.fab {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+#a-footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  color: aqua;
+}
+.footer {
+  background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0)),
+    url(https://preview.redd.it/b4zg8gqb1pr41.png?auto=webp&s=54bda242cfe1313c784d9f19290f0e1897f5dd9c);
+  background-size: cover;
+}
+#footer {
+  width: 100%;
+  background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0)),
+    url(http://inspirationfeed.com/wp-content/uploads/2018/12/anna-wangler-329988-unsplash-1-800x450.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#footer-span {
+  font-size: 30px;
+  color: white;
+}
+
+.btn-a {
+  color: aqua;
+}
+
+nav {
+  box-shadow: 0px 2px 2px 0px aqua;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.actives {
+  border-bottom: 2px solid red;
+}

@@ -1,0 +1,49 @@
+#nombre{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+#primerCuerpo{
+    
+    background-image: url(https://image.freepik.com/foto-gratis/textura-negra-fondo_1160-614.jpg);
+    background-repeat:repeat-x;
+    background-size: 75%;
+    padding-top: 10%;
+ }
+#negro{
+    padding-bottom: 20%;
+}
+#welcome
+{
+    color: white;
+    text-align: center;
+}
+
+div.prueba{
+    text-align: center;
+    
+}
+h3.tres{
+    border: 5px solid green;
+    border-radius: 100px;
+
+    text-align: center;
+}
+#love{
+    
+    border: 5px solid red;
+    border-radius: 100px;
+
+    text-align: center;
+}
+
+#image
+{
+    background-image: url(http://buildingontheword.org/wp-content/uploads/2018/03/darkness.jpg);
+    padding: 50px;
+    margin:50px;
+    height:150px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
