@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Primer post",
+    "body": "Este es mi SEGUNDO cuerpo",
+    "author": "Dyland"
+  },
+  {
+    "id": 2,
+    "title": "Segundo post",
+    "body": "Estes es mi SEGUNDO cuerpo",
+    "author": "Steven"
+  }
+]
