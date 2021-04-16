@@ -1,0 +1,49 @@
+body
+{
+    background-color: black;
+}
+
+.clock
+{
+
+    position: absolute;
+    top: 35%;
+    left: 40%;
+ /*   transform:translateX(-50%) translateY(-50);
+   */ font-size: 100px;
+    font-family: 'Loved by the King', cursive;
+    letter-spacing: 1px;
+    color: #cc00ff;
+    text-shadow:
+		0 0 5px   rgb(255, 0, 179),
+		0 0 10px  rgb(255, 0, 179),
+		0 0 20px  rgb(255, 0, 179),
+		0 0 40px  rgba(38,104,127,1),
+		0 0 80px  rgba(38,104,127,1),
+		0 0 90px  rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+
+}
+
+#MyClockDisplay2{
+    position: absolute;
+    top: 38%;
+    left: 56%;
+ /*   transform:translateX(-50%) translateY(-50);
+   */ font-size: 80px;
+    font-family: 'Loved by the King', cursive;
+    letter-spacing: 1px;
+    color: #0080ff;
+    text-shadow:
+		0 0 5px   rgb(0, 187, 255),
+		0 0 10px  rgb(0, 187, 255),
+		0 0 20px  rgb(0, 187, 255),
+		0 0 40px  rgba(38,104,127,1),
+		0 0 80px  rgba(38,104,127,1),
+		0 0 90px  rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
